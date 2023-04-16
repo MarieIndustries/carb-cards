@@ -7,6 +7,7 @@ import './index.css'
 
 function App() {
   const [currentRecipe, setCurrentRecipe] = React.useState(randomRecipeIndex())
+  const [showMacros, setShowMacros] = React.useState(true)
 
   function randomRecipeIndex(){
     return Math.floor(Math.random() * CarbData.data.length)
@@ -32,10 +33,14 @@ function App() {
       setCurrentRecipe(currentlySelectedElement[0].id-1)
   }
 
+  function handleShowMacros(cardMacros){
+      setShowMacros(prevState => !prevState)
+  }
+
   return (
     <div className="App">
         <Header />
-        <Card recipeIndex={currentRecipe}/>
+        <Card recipeIndex={currentRecipe} showMacros={showMacros} handleShowMacros={handleShowMacros}/>
         {newRecipeButton()}
         <Navbar handleClick={selectSpecificRecipe}  />
     </div>
