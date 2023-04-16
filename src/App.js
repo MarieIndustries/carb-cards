@@ -8,7 +8,6 @@ import './index.css'
 function App() {
   const [currentRecipe, setCurrentRecipe] = React.useState(randomRecipeIndex())
 
-
   function randomRecipeIndex(){
     return Math.floor(Math.random() * CarbData.data.length)
   }
@@ -28,12 +27,17 @@ function App() {
     })
   }
 
+  function selectSpecificRecipe(elementName){
+      const currentlySelectedElement  = CarbData.data.filter(item=> item.title === elementName);
+      setCurrentRecipe(currentlySelectedElement[0].id-1)
+  }
+
   return (
     <div className="App">
         <Header />
         <Card recipeIndex={currentRecipe}/>
         {newRecipeButton()}
-        <Navbar />
+        <Navbar handleClick={selectSpecificRecipe}  />
     </div>
   );
 }
