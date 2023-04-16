@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkgray;
 }
 
 code {
@@ -13,8 +14,31 @@ code {
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
   height: 100px;
-  background-color:cornflowerblue;
+  line-height: 100px;
+  color: black;
+  background-color: gray;
+}
+
+.header--title{
+  vertical-align: middle;
+  padding: 20px;
+  font-size: 50px;
+}
+
+.header--subtitle {
+  vertical-align: middle;
+  margin-left: auto;
+  padding: 20px;
+}
+
+.header-img {
+ height: 100%; 
+ margin-right: 5px;
 }
 
 .parentCard {
@@ -29,6 +53,7 @@ code {
   outline-style: groove;
   margin: 1em;
   padding: 1em;
+  background-color: white;
 }
 
 .card:hover {
