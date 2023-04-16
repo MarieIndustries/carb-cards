@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/carb-cards/static/css/main.93a7daae.css",
-    "main.js": "/carb-cards/static/js/main.323f24be.js",
-    "static/media/steamy-bowl.png": "/carb-cards/static/media/steamy-bowl.660b30c263a5f96429b8.png",
-    "index.html": "/carb-cards/index.html",
-    "main.93a7daae.css.map": "/carb-cards/static/css/main.93a7daae.css.map",
-    "main.323f24be.js.map": "/carb-cards/static/js/main.323f24be.js.map"
+    "main.css": "/carb-cards/public/index.html/static/css/main.93a7daae.css",
+    "main.js": "/carb-cards/public/index.html/static/js/main.2dcc3e9a.js",
+    "static/media/steamy-bowl.png": "/carb-cards/public/index.html/static/media/steamy-bowl.660b30c263a5f96429b8.png",
+    "index.html": "/carb-cards/public/index.html/index.html",
+    "main.93a7daae.css.map": "/carb-cards/public/index.html/static/css/main.93a7daae.css.map",
+    "main.2dcc3e9a.js.map": "/carb-cards/public/index.html/static/js/main.2dcc3e9a.js.map"
   },
   "entrypoints": [
     "static/css/main.93a7daae.css",
-    "static/js/main.323f24be.js"
+    "static/js/main.2dcc3e9a.js"
   ]
 }
