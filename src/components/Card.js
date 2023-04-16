@@ -9,8 +9,8 @@ export default function Card(props){
     //TODO: add nutrition content to card. Maybe hide when button is clicked
 
     return(
-        <div className="card">
-           <div>
+        <div className="parentCard">
+           <div className="card">
                  <h3>{data[props.recipeIndex].title}</h3>
                  <p>{data[props.recipeIndex].directions}</p>
              </div>
