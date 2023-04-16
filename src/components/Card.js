@@ -20,20 +20,22 @@ export default function Card(props){
             <div>
                 <div>Nutrition Information Per 100g</div>
                 <table className="nutritionTable">
-                    <tr>
-                        <th>Calories</th>
-                        <th>Carbs</th>
-                        <th>Protein</th>
-                        <th>Fat</th>
-                        <th>Fiber</th>
-                    </tr>
-                    <tr>
-                        <td>{nutrition.calories}</td>
-                        <td>{nutrition.macros.carbs}</td>
-                        <td>{nutrition.macros.protein}</td>
-                        <td>{nutrition.macros.fat}</td>
-                        <td>{nutrition.fiber}</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <th>Calories</th>
+                            <th>Carbs</th>
+                            <th>Protein</th>
+                            <th>Fat</th>
+                            <th>Fiber</th>
+                        </tr>
+                        <tr>
+                            <td>{nutrition.calories}</td>
+                            <td>{nutrition.macros.carbs}</td>
+                            <td>{nutrition.macros.protein}</td>
+                            <td>{nutrition.macros.fat}</td>
+                            <td>{nutrition.fiber}</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         )
