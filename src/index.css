@@ -47,8 +47,8 @@ code {
 }
 
 .card {
-  height: 600px;
-  width: 300px;
+  height: 400px;
+  width: 350px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   outline-style: groove;
   margin: 1em;
@@ -58,6 +58,10 @@ code {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardTitle{
+  text-align: center;
 }
 
 .tab {
@@ -78,6 +82,12 @@ code {
 
 .tab button:hover {
   background-color: #ddd;
+}
+
+.nutritionTable, th, td{
+  border: 1px solid black;
+  padding: 1px;
+  border-spacing: 3px;
 }
 
 .randomizeRecipeButton {
