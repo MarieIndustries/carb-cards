@@ -86,7 +86,7 @@ const carbData = {
                 fiber: 11.9,
                 macros: {
                     carbs: 54.9,
-                    proten: 13.4,
+                    protein: 13.4,
                     fat: 8.6,
                 }    
             } 
