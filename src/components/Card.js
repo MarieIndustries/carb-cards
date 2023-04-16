@@ -6,8 +6,6 @@ export default function Card(props){
 
     const data = CarbData.data;
 
-    //todo: add fancy font https://fonts.google.com/specimen/Andika?query=Andika+
-
     const directionsArray = data[props.recipeIndex].directions.split('\n')
     var directionsRows = [];
     directionsRows.push(<div>Cooking Instructions:</div>)
