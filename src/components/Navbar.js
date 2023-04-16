@@ -2,14 +2,15 @@ import React from 'react'
 import CarbData from '../CarbData.js'
 import '../index.css'
 
-export default function Footer(){
+export default function Navbar(){
 
-    //maybe import the data and create buttons for each that will bring up the recipe
+    //TODO: clicking one of these will bring up its card info
+
     const buttonNames = CarbData.data.map(item=>{
-        return(<button >{item.title}</button>)
+        return(<button key={item.id}>{item.title}</button>)
     })
+
     return(
-        
         <div className="tab">
             {buttonNames}
         </div>

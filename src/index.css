@@ -12,9 +12,24 @@ code {
     monospace;
 }
 
-.header{
+.header {
   height: 100px;
   background-color:cornflowerblue;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  outline-style: groove;
+  margin: 1em;
+  padding: 1em;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .tab {
@@ -37,3 +52,8 @@ code {
   background-color: #ddd;
 }
 
+.randomizeRecipeButton {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}

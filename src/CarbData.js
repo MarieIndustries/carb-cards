@@ -49,7 +49,7 @@ const carbData = {
         {
             id: 4,
             title: "Bulgur #2",
-            directions: "1. Rinse rice with water until the starch comes off.        2. Add rice to pot and add boiling water until there is about an inch covering the rice        3. Keep on high heat until the water returns to a boil        4. Reduce heat to very low and cook for 20 minutes",
+            directions: "1. Bring 1.5 cups of water to a boil        2. Add 1 cup of bulgur to the water        3. Keep on high heat until the water simmers, then reduce heat to very low and cook for 7 minutes",
             coverImg: "white-rice.png",
             nutrition: {
                 calories: 342,
@@ -64,7 +64,7 @@ const carbData = {
         {
             id: 5,
             title: "Pot Barley",
-            directions: "1. Rinse rice with water until the starch comes off.        2. Add rice to pot and add boiling water until there is about an inch covering the rice        3. Keep on high heat until the water returns to a boil        4. Reduce heat to very low and cook for 20 minutes",
+            directions: "1. Bring 3 cups of water to a boil        2. Add 1 cup of barley to the water        3. Keep on high heat until the water returns to a boil, then reduce heat to very low and cook for 45-50 minutes",
             coverImg: "white-rice.png",
             nutrition: {
                 calories: 356,
